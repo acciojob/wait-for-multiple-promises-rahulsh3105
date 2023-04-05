@@ -41,7 +41,6 @@ async function callFns() {
     });
 
   const end = new Date();
-
   const timeInMillis = end - start;
   res.innerHTML += `
             <tr>
@@ -50,5 +49,4 @@ async function callFns() {
             </tr>
           `;
 }
-
 callFns();
